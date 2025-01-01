@@ -3,7 +3,7 @@ import apiRouter from "./src/routers/apiRouter"
 import connectToMongo from './src/db/connetctToDb'
 
 
-const app: Express = express();
+const app = express();
 const port = 4000;
 
 app.listen(port, () => {
